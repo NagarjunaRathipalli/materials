@@ -1,0 +1,20 @@
+Container:
+==========
+Containers are used to pad the content inside of them, and there are
+ two container classes available:
+
+In Bootstrap for containers two classes are available.
+ those are  container and container-fluid
+
+The .container class provides a responsive fixed width container
+The .container-fluid class provides a full width container, 
+spanning the entire width of the viewport
+
+
+Container Padding
+==================
+By default, containers have left and right padding, with no top or bottom padding. 
+Therefore, we often use spacing utilities, such as extra padding and margins to make
+ them look even better.
+For example, .pt-5 means "add a large top padding" and .pb-5 means add a large bottom
+ padding

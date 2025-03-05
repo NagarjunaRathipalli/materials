@@ -1,0 +1,29 @@
+Spinners
+=========
+To create a spinner/loader, use the .spinner-border class:
+
+Colored Spinners
+=================
+Use any text color utilites to add a color to the spinner
+
+class="spinner-border spinner-border-success"
+
+Growing Spinners
+=================
+Use the .spinner-grow class if you want the spinner/loader to grow instead of "spin"
+
+coloured growing Spinners:
+==========================
+class="spinner-grow spinner-grow-success"
+
+Spinner Size
+=============
+Use .spinner-border-sm or .spinner-grow-sm to create a smaller spinner:
+
+Spinner Buttons
+================
+You can also add spinners to a button, with or without text
+<button class="btn btn-primary">
+  <span class="spinner-border spinner-border-sm"></span>
+  Loading..
+</button>

@@ -1,0 +1,8 @@
+EC2 instance
+->On-Demand
+->Reserved 
+   ->Standard 
+   ->convertable
+->spot
+->Dedicated Hosts
+->Dedicated Instances

@@ -1,0 +1,21 @@
+text-muted, text-primary, text-success, text-info, text-warning, text-danger, 
+text-secondary, text-white, text-dark,
+ 
+text-body (default body color/often black) and text-light:
+
+
+bg-primary, bg-success, bg-info, bg-warning, bg-danger, bg-secondary, 
+bg-dark and bg-light.
+
+
+<div class="container mt-3">
+  <h2>Background Color with Contrasting Text Color</h2>
+  <p class="bg-primary">This text is important.</p>
+  <p class="bg-success">This text indicates success.</p>
+  <p class="bg-info">This text represents some information.</p>
+  <p class="bg-warning">This text represents a warning.</p>
+  <p class="bg-danger">This text represents danger.</p>
+  <p class="bg-secondary">Secondary background color.</p>
+  <p class="bg-dark">Dark grey background color.</p>
+  <p class="bg-light">Light grey background color.</p>
+</div>

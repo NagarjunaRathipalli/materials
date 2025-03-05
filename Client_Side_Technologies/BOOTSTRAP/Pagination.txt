@@ -1,0 +1,45 @@
+Basic Pagination
+If you have a web site with lots of pages, you may wish to add some sort of pagination to each page.
+
+To create a basic pagination, add the .pagination class to an <ul> element. 
+Then add the .page-item to each <li> element and a .page-link class to each link inside <li>
+
+Active State
+==============
+The .active class is used to "highlight" the current page
+
+Disabled State
+===============
+The .disabled class is used for un-clickable links:
+
+Pagination Sizing(pagination-sm or pagination-lg)
+
+for aligning:(justify-content-center or justify-content-end)
+
+Pagination blocks can also be sized to a larger or a smaller size:
+
+Add class .pagination-lg for larger blocks or .pagination-sm for smaller blocks
+
+Pagination Alignment
+====================
+Use utility classes to change the alignment of the pagination:
+
+for center alignment
+class="pagination justify-content-center"
+
+for right alignment
+class="pagination justify-content-right"
+
+Breadcrumbs
+Another form for pagination, is breadcrumbs:
+
+Photos/Summer 2017/Italy/Rome
+The .breadcrumb and .breadcrumb-item classes indicates the current page's 
+location within a navigational hierarchy
+
+<ul class="breadcrumb">
+    <li class="breadcrumb-item"><a href="#">Photos</a></li>
+    <li class="breadcrumb-item"><a href="#">Summer 2017</a></li>
+    <li class="breadcrumb-item"><a href="#">Italy</a></li>
+    <li class="breadcrumb-item active">Rome</li>
+  </ul>

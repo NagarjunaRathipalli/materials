@@ -1,0 +1,120 @@
+Button Styles
+=============
+Bootstrap 5 provides different styles of buttons:
+btn btn btn-primary btn-secondary  btn-success btn-info btn-warning btn-danger btn-dark btn-light btn-link
+
+The button classes can be used on <a>, <button>, or <input> elements:
+
+Button Outline
+==============
+Bootstrap 5 also provides eight outline/bordered buttons.
+
+Move the mouse over them to see an additional "hover" effect:
+
+ btn-outline-primary btn-outline-secondary btn-outline-success 
+ btn-outline-info 
+ btn-outline-warning 
+ btn-outline-danger
+ btn-outline-dark 
+ btn-outline-light
+
+ text-dark
+
+Button Sizes
+============
+Use the .btn-lg class for large buttons or .btn-sm class for small buttons:
+
+
+Block Level Buttons
+===================
+To create a block level button that spans the entire width of the parent element, use the .d-grid "helper" class on the parent element
+
+<div class="d-grid">
+  <button type="button" class="btn btn-primary btn-block">Full-Width Button</button>
+</div>
+
+If you have many block-level buttons, you can control the space between them with the .gap-* class:
+
+<div class="d-grid gap-3">
+  <button type="button" class="btn btn-primary btn-block">Full-Width Button</button>
+  <button type="button" class="btn btn-primary btn-block">Full-Width Button</button>
+  <button type="button" class="btn btn-primary btn-block">Full-Width Button</button>
+</div>
+
+
+Active/Disabled Buttons
+========================
+A button can be set to an active (appear pressed) or a disabled (unclickable) state:
+
+The class .active makes a button appear pressed, and the disabled attribute makes a button unclickable. Note that <a> elements do not support the disabled attribute and must therefore use the .disabled class to make it visually appear disabled.
+
+Spinner Buttons
+================
+You can also add "spinners" to a button
+
+<button class="btn btn-primary">
+  <span class="spinner-border spinner-border-sm"></span>
+</button>
+
+<button class="btn btn-primary">
+  <span class="spinner-border spinner-border-sm"></span>
+  Loading..
+</button>
+
+<button class="btn btn-primary" disabled>
+  <span class="spinner-border spinner-border-sm"></span>
+  Loading..
+</button>
+
+<button class="btn btn-primary" disabled>
+  <span class="spinner-grow spinner-grow-sm"></span>
+  Loading..
+</button>
+
+Button Groups:
+Bootstrap 5 allows you to group a series of buttons together (on a single line) in a button group
+
+Use a <div> element with class .btn-group to create a button group
+
+Button sizes
+============
+Instead of applying button sizes to every button in a group, use class .btn-group-lg for a large button group or the .btn-group-sm for a small button group:
+
+Vertical Button Groups
+=======================
+Bootstrap 5 also supports vertical button groups
+
+Use the class .btn-group-vertical to create a vertical button group:
+
+Button Groups Side by Side
+==========================
+Button groups are "inline" by default, which makes them appear side by side when you have multiple groups:
+
+<div class="btn-group">
+  <button type="button" class="btn btn-primary">Apple</button>
+  <button type="button" class="btn btn-primary">Samsung</button>
+  <button type="button" class="btn btn-primary">Sony</button>
+</div>
+
+<div class="btn-group">
+  <button type="button" class="btn btn-primary">BMW</button>
+  <button type="button" class="btn btn-primary">Mercedes</button>
+  <button type="button" class="btn btn-primary">Volvo</button>
+</div>
+
+
+Nesting Button Groups & Dropdown Menus
+=====================================
+Nest button groups to create dropdown menus 
+
+<div class="btn-group">
+  <button type="button" class="btn btn-primary">Apple</button>
+  <button type="button" class="btn btn-primary">Samsung</button>
+  <div class="btn-group">
+    <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">Sony</button>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="#">Tablet</a>
+      <a class="dropdown-item" href="#">Smartphone</a>
+    </div>
+  </div>
+</div>
